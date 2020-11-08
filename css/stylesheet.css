@@ -2,11 +2,15 @@ body {
     background-color: Beige;
     }
 
-.footer{
+nav{
     background-color: lightblue;
     text-align: center;
 }
 
-h1{
+.font{
     font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    color: black;
 }
