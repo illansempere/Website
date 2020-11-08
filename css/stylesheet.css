@@ -11,6 +11,27 @@ nav{
     font-family: 'Montserrat', sans-serif;
 }
 
-hr {
-    color: black;
+@media screen and (min-width:600px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    a {
+        padding-right: 20px;
+    }
+
+    div {
+        grid-column: 1/2;
+        margin-top: 16px;
+    }
+
+    .desc {
+        grid-column: 2/3;
+    }
 }
